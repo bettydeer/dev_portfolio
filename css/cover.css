@@ -35,6 +35,15 @@ body {
   text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
+/*css for full size background image*/
+body {
+  background: url(../img/computer.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
   display: table;
@@ -116,6 +125,7 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
+
 
 
 /*
